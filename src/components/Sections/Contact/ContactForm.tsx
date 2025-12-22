@@ -31,16 +31,13 @@ const ContactForm: FC = memo(() => {
     [],
   );
 
-  const handleSendMessage = useCallback(
-    async (event: React.FormEvent<HTMLFormElement>) => {
-      event.preventDefault();
+  const handleSendMessage = useCallback(async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
 
-      emailjs.sendForm('service_ifxis44', 'template_97ud84q', event.currentTarget, 'z7lrWEIQz9Ydo1DGl').then(() => {
-        alert('Mensaje enviado correctamente.');
-      });
-    },
-    [data],
-  );
+    emailjs.sendForm('service_ifxis44', 'template_97ud84q', event.currentTarget, 'z7lrWEIQz9Ydo1DGl').then(() => {
+      alert('Mensaje enviado correctamente.');
+    });
+  }, []);
 
   const inputClasses =
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-green-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
