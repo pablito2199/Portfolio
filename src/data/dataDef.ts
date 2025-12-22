@@ -1,7 +1,7 @@
-import { StaticImageData } from 'next/image';
-import { FC, SVGProps } from 'react';
+import {StaticImageData} from 'next/image';
+import {FC, SVGProps} from 'react';
 
-import { IconProps } from '../components/Icon/Icon';
+import {IconProps} from '../components/Icon/Icon';
 
 export interface HomepageMeta {
   title: string;
@@ -45,7 +45,7 @@ export interface About {
 
 export interface AboutItem {
   label: string;
-  text: String;
+  text: string;
   Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 }
 

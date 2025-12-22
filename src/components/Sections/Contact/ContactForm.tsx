@@ -1,5 +1,5 @@
-import {FC, memo, useCallback, useMemo, useState} from 'react';
 import emailjs from 'emailjs-com';
+import {FC, memo, useCallback, useMemo, useState} from 'react';
 
 interface FormData {
   name: string;
@@ -23,20 +23,21 @@ const ContactForm: FC = memo(() => {
     <T extends HTMLInputElement | HTMLTextAreaElement>(event: React.ChangeEvent<T>): void => {
       const {name, value} = event.target;
 
-      const fieldData: Partial<FormData> = {[name]: value};
-
-      setData({...data, ...fieldData});
+      setData(prevData => ({
+        ...prevData,
+        [name]: value,
+      }));
     },
-    [data],
+    [],
   );
 
   const handleSendMessage = useCallback(
     async (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
 
-          emailjs.sendForm('service_ifxis44','template_97ud84q',event.currentTarget,'z7lrWEIQz9Ydo1DGl').then(()=>{
-              alert('Mensaje enviado correctamente.')
-          })
+      emailjs.sendForm('service_ifxis44', 'template_97ud84q', event.currentTarget, 'z7lrWEIQz9Ydo1DGl').then(() => {
+        alert('Mensaje enviado correctamente.');
+      });
     },
     [data],
   );
@@ -46,12 +47,20 @@ const ContactForm: FC = memo(() => {
 
   return (
     <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
-      <input className={inputClasses} name="nombre" id="nombre" onChange={onChange} placeholder="Nombre" required type="text" />
+      <input
+        className={inputClasses}
+        id="nombre"
+        name="nombre"
+        onChange={onChange}
+        placeholder="Nombre"
+        required
+        type="text"
+      />
       <input
         autoComplete="email"
         className={inputClasses}
-        name="email"
         id="email"
+        name="email"
         onChange={onChange}
         placeholder="Email"
         required
@@ -59,9 +68,9 @@ const ContactForm: FC = memo(() => {
       />
       <textarea
         className={inputClasses}
+        id="mensaje"
         maxLength={250}
         name="mensaje"
-        id="mensaje"
         onChange={onChange}
         placeholder="Mensaje"
         required
