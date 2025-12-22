@@ -46,7 +46,7 @@
     "react/no-unescaped-entities": "off",
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
-    "sort-imports": ["error", "off"],
+    "sort-imports": "off",
     "jsx-a11y/no-onchange": "off",
     "jsx-a11y/no-autofocus": "off",
     "@next/next/no-img-element": "off"
