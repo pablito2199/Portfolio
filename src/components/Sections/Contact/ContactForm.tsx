@@ -17,7 +17,7 @@ const ContactForm: FC = memo(() => {
     [],
   );
 
-  const [data, setData] = useState<FormData>(defaultData);
+  const [, setData] = useState<FormData>(defaultData);
 
   const onChange = useCallback(
     <T extends HTMLInputElement | HTMLTextAreaElement>(event: React.ChangeEvent<T>): void => {
