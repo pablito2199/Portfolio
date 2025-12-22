@@ -90,7 +90,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/uc?export=download&id=1N_JOU2vK0KoTxo6SA2c7FDlLfMtNeuDY',
+      href: 'https://drive.google.com/file/d/1EB5ckJPDxgfvezd9VlQV2sAzvD3p-Igj/view?usp=drivesdk',
       text: 'Descargar CV',
       primary: true,
       Icon: DownloadIcon,
