@@ -14,6 +14,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioAsignacionTFG from '../images/portfolio/portfolio-AsignacionTFG.png';
 import portfolioFindACoach from '../images/portfolio/portfolio-FindACoach.jpg';
+import porfolioHoldedAbsencesIntoGoogleCalendar from '../images/portfolio/portfolio-HoldedAbsencesIntoGoogleCalendar.jpg';
 import porfolioMonopoly from '../images/portfolio/portfolio-Monopoly.png';
 import porfolioMultinucleo from '../images/portfolio/portfolio-Multinucleo.png';
 import porfolioRedAmbulatorios from '../images/portfolio/portfolio-RedAmbulatorios.png';
@@ -26,6 +27,7 @@ import profilepic from '../images/profilepic.jpg';
 import resumeBahia from '../images/resume/resume-Bahia.jpg';
 import resumeCambridge from '../images/resume/resume-Cambridge.jpg';
 import resumeDGT from '../images/resume/resume-DGT.jpg';
+import resumeEOISantiagoAleman from '../images/resume/resume-EOISantiagoAleman.png';
 import resumeOllosGrandes from '../images/resume/resume-OllosGrandes.png';
 import resumeScrumManager from '../images/resume/resume-ScrumManager.jpg';
 import resumeUdemy from '../images/resume/resume-Udemy.png';
@@ -152,11 +154,11 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Portugués',
-        level: 6,
+        name: 'Alemán',
+        level: 4,
       },
       {
-        name: 'Alemán',
+        name: 'Portugués',
         level: 3,
       },
     ],
@@ -243,6 +245,13 @@ export const portfolioItems: PortfolioItem[] = [
       'Herramienta colaborativa para la creación y edición de documentos por parte de usuarios expertos en legislación a nivel gallego. Se trata de mi TFG, dirigido por personal del CiTIUS, donde se han utilizado tecnologías como React.js, Tailwind, Spring Boot, MongoDB, ...',
     url: 'https://github.com/pablito2199/TFG',
     image: porfolioTFG,
+  },
+  {
+    title: 'Holded Absences into Google Calendar',
+    description:
+      'Pequeño script de Python para la sincronización de tus ausencias de Holded en tu cuenta de Google Calendar.',
+    url: 'https://github.com/pablito2199/Holded-Absences-into-Google-Calendar',
+    image: porfolioHoldedAbsencesIntoGoogleCalendar,
   },
   {
     title: 'Watch.it',
@@ -423,6 +432,16 @@ export const education: TimelineItem[] = [
 
 export const certificaciones: TimelineItem[] = [
   {
+    date: 'Expedición: may. 2026 · Sin fecha de vencimiento',
+    time: '',
+    location: 'EOI Santiago de Compostela',
+    title: 'A1 Alemán',
+    content: <p></p>,
+    image: resumeEOISantiagoAleman,
+    credencial: '37989',
+    url: 'https://www.edu.xunta.gal/centros/eoidesantiago/taxonomy/term/48',
+  },
+  {
     date: 'Expedición abr. 2025',
     time: '16h',
     location: 'Scrum Manager',
@@ -449,7 +468,7 @@ export const certificaciones: TimelineItem[] = [
     title: 'B2 First Certificate in English (FCE)',
     content: <p></p>,
     image: resumeCambridge,
-    credencial: '',
+    credencial: '177ES3930190',
     url: 'https://www.cambridgeenglish.org/es/exams-and-tests/first/',
   },
   {
