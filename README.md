@@ -41,16 +41,30 @@ Para desplegarlo, importa el repositorio en Vercel y deja que detecte esta confi
 
 ## Personalización
 
-El contenido editable se encuentra en [src/data.json](./src/data.json). Desde ahí se pueden modificar:
+El contenido editable se encuentra en los archivos de datos `src/data.json` (castellano por defecto), `src/data_en.json` (inglés), `src/data_de.json` (alemán) y `src/data_gl.json` (gallego). Desde ahí se pueden modificar:
 
 - Datos personales y enlaces.
 - Mensajes de la portada.
+- Traducciones de la interfaz y del contenido en `src/i18n.js` (castellano, inglés, alemán y gallego).
 - Aptitudes.
 - Proyectos.
 - Experiencia y formación.
 - Certificaciones y cursos.
 
 Las imágenes utilizadas por el portfolio están en [public/images](./public/images). Las rutas del JSON deben comenzar por `/images/`.
+
+## Idiomas
+
+El portfolio está disponible en cuatro idiomas: castellano (por defecto), inglés, alemán y gallego. El idioma se puede cambiar desde el selector del header. La selección se conserva en el navegador y los nombres propios, entidades, tecnologías, enlaces y títulos públicos se mantienen sin traducir.
+
+Cada idioma utiliza su propio archivo de datos:
+
+| Archivo            | Idioma                |
+| ------------------ | --------------------- |
+| `src/data_de.json` | Deutsch               |
+| `src/data_en.json` | English               |
+| `src/data.json`    | Español (por defecto) |
+| `src/data_gl.json` | Galego                |
 
 ## Formulario de contacto
 
@@ -64,6 +78,10 @@ public/
 src/
   App.js
   data.json
+  data_de.json
+  data_en.json
+  data_gl.json
+  i18n.js
   index.js
   styles.css
 package.json

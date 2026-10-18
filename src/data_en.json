@@ -1,0 +1,347 @@
+{
+    "profile": {
+        "name": "Pablo Tarrío Otero",
+        "role": "Computer Engineer · Full Stack Developer",
+        "intro": "I am Pablo, a Computer Engineering graduate currently working at Vexiza S.L., collaborating on the development of applications for rural management in Galicia.",
+        "about": "Computer engineer with a strong interest in web technologies such as React.js and Spring Boot. In my free time, I enjoy socializing, traveling, watching and playing sports, reading, and listening to music.",
+        "location": "Santiago de Compostela, Spain",
+        "birthDate": "2000-12-27",
+        "experienceStartDate": "2022-10-01",
+        "nationality": "Spanish",
+        "interests": "Traveling, sports, reading...",
+        "education": "Bachelor's Degree in Computer Engineering",
+        "employment": "Analyst / Programmer",
+        "email": "pablotarriootero@gmail.com",
+        "github": "https://github.com/pablito2199",
+        "linkedin": "https://www.linkedin.com/in/pablo-tarr%C3%ADo-otero-806b52204/"
+    },
+    "terminalMessages": [
+        "Computer Engineer",
+        "Full Stack Developer",
+        "React and Spring Boot Fan",
+        "Always learning something new"
+    ],
+    "aptitudes": [
+        {
+            "name": "Web Development",
+            "description": "Design and development of web interfaces and complete applications.",
+            "items": [
+                "JavaScript",
+                "React.js",
+                "Vue.js",
+                "HTML5",
+                "CSS3",
+                "jQuery",
+                "Tailwind CSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "name": "Backend & Integration",
+            "description": "Building services, APIs, and integrations with external systems.",
+            "items": [
+                "Java",
+                "Spring Boot",
+                "Spring Framework",
+                "Hibernate",
+                "REST API",
+                "Mirth Connect",
+                "HL7"
+            ]
+        },
+        {
+            "name": "Databases",
+            "description": "Design, management, and connection of applications with databases.",
+            "items": [
+                "Oracle SQL",
+                "PostgreSQL",
+                "MongoDB",
+                "MySQL",
+                "JDBC",
+                "Firebase"
+            ]
+        },
+        {
+            "name": "Tools & Environments",
+            "description": "Tools used to develop, test, and deploy applications.",
+            "items": [
+                "Git",
+                "SVN",
+                "Jenkins",
+                "JUnit",
+                "ArcGIS",
+                "AWS Educate"
+            ]
+        },
+        {
+            "name": "Cloud & DevOps",
+            "description": "Automation and deployment of applications and containers in cloud environments.",
+            "items": [
+                "Azure",
+                "Azure Container Registry",
+                "Azure Container Apps",
+                "Docker",
+                "CI/CD",
+                "Remote Deployments"
+            ]
+        },
+        {
+            "name": "AI & Automation",
+            "description": "Exploring artificial intelligence tools to improve development workflows.",
+            "items": [
+                "AI Agents",
+                "GitHub Copilot",
+                "Claude Code",
+                "Task Automation",
+                "Developer Tools"
+            ]
+        },
+        {
+            "name": "Methodologies & Competencies",
+            "description": "Work organization and coordination of technological projects.",
+            "items": [
+                "Agile",
+                "Scrum",
+                "Risk Analysis",
+                "Technical Leadership",
+                "Task Management",
+                "Client Meetings"
+            ]
+        },
+        {
+            "name": "Languages",
+            "description": "Certified languages used in personal and professional contexts.",
+            "items": [
+                "Native Spanish",
+                "Native Galician",
+                "B2 English",
+                "A1 German",
+                "Portuguese"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "WhatsApp Clone",
+            "description": "A clone of the WhatsApp Web application built using ReactJS, React Context API, React Router, TailwindCSS, and FontAwesome.",
+            "image": "/images/portfolio/portfolio-WhatsappClone.png",
+            "url": "https://pablito2199-whatsapp.vercel.app/",
+            "tags": [
+                "React"
+            ]
+        },
+        {
+            "title": "Collaborative Document Creation and Editing Tool (Bachelor's Thesis)",
+            "description": "Collaborative tool for creating and editing documents by legal experts at the Galician level. Thesis supervised by CiTIUS staff using React.js, Tailwind, Spring Boot, and MongoDB.",
+            "image": "/images/portfolio/portfolio-TFG.jpg",
+            "url": "https://github.com/pablito2199/TFG",
+            "tags": [
+                "React",
+                "Spring Boot",
+                "Hibernate",
+                "MongoDB"
+            ]
+        },
+        {
+            "title": "Holded Absences into Google Calendar",
+            "description": "A small Python script to synchronize your Holded absences with your Google Calendar account.",
+            "image": "/images/portfolio/portfolio-HoldedAbsencesIntoGoogleCalendar.jpg",
+            "url": "https://github.com/pablito2199/Holded-Absences-into-Google-Calendar",
+            "tags": [
+                "Python",
+                "Automation",
+                "Claude Code"
+            ]
+        },
+        {
+            "title": "Watch.it",
+            "description": "Thematic social network developed during Services Engineering classes. It allows creating users, friendships, movies, and ratings.",
+            "image": "/images/portfolio/portfolio-WatchIt.png",
+            "url": "https://github.com/pablito2199/Watch.it",
+            "tags": [
+                "React",
+                "Spring Boot",
+                "Hibernate",
+                "MongoDB"
+            ]
+        },
+        {
+            "title": "Find a coach",
+            "description": "Application to register users and coaches, filter coaches, send contact requests, and view personal requests. Built with Vue 3, Vuex, and Firebase.",
+            "image": "/images/portfolio/portfolio-FindACoach.jpg",
+            "url": "https://pablito2199-find-a-coach.vercel.app/",
+            "tags": [
+                "Vue",
+                "Firebase"
+            ]
+        },
+        {
+            "title": "Health Center Network Management",
+            "description": "Database management application for a health center, developed for the BDII course of the Computer Engineering Degree at USC.",
+            "image": "/images/portfolio/portfolio-RedAmbulatorios.png",
+            "url": "https://github.com/pablito2199/BDII-Ambulatorioe",
+            "tags": [
+                "Java",
+                "SQL"
+            ]
+        },
+        {
+            "title": "SIMD Multi-core Programming",
+            "description": "Multi-core programming using OpenMP and AVX to perform operations between quaternions.",
+            "image": "/images/portfolio/portfolio-Multinucleo.png",
+            "url": "https://github.com/pablito2199/Programacion-Multinucleo-SIMD",
+            "tags": [
+                "C",
+                "OpenMP"
+            ]
+        },
+        {
+            "title": "Bachelor's Thesis Assignment in CLIPS",
+            "description": "Allows assigning bachelor's theses to students based on their requested proposals.",
+            "image": "/images/portfolio/portfolio-AsignacionTFG.png",
+            "url": "https://github.com/pablito2199/Asignacion-de-TFGs-en-CLIPS",
+            "tags": [
+                "CLIPS"
+            ]
+        },
+        {
+            "title": "Monopoly",
+            "description": "Monopoly game implemented using Object-Oriented Programming.",
+            "image": "/images/portfolio/portfolio-Monopoly.png",
+            "url": "https://github.com/pablito2199/Monopoly",
+            "tags": [
+                "Java"
+            ]
+        },
+        {
+            "title": "Whatsapp Message Counter",
+            "description": "Script that counts messages sent by chat members from an exported conversation in .txt format.",
+            "image": "/images/portfolio/portfolio-WhatsappCounter.jpg",
+            "url": "https://github.com/pablito2199/WhatsApp-Message-Counter",
+            "tags": [
+                "Python"
+            ]
+        },
+        {
+            "title": "Series' Formatter",
+            "description": "Formats your TV series filenames according to season and order.",
+            "image": "/images/portfolio/portfolio-SeriesFormatter.jpg",
+            "url": "https://github.com/pablito2199/Series-Formatter",
+            "tags": [
+                "Python"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "date": "October 2022 - Present",
+            "company": "Vexiza S.L.",
+            "role": "Technical Lead - Analyst / Programmer",
+            "image": "/images/resume/resume-Vexiza.jpg",
+            "url": "https://www.vexiza.com/",
+            "description": "During my time as a Junior and FullStack Developer, I participated in the development of TERREC, an application intended for AMTEGA for parcel management at the Galician level. The objective was to unify the management of model villages, agroforestry polygons, ownership investigations, etc., into a single application. Management includes viewing and modifying maps via layers and GIS services.\n\nRegarding technologies, Spring Boot with an Oracle SQL database was used for the backend, and jQuery/JavaScript for the frontend, utilizing ArcGIS for GIS control. Additionally, autonomous deployments were carried out in Jenkins, and JUnit was used for testing. SVN was used for version control.\n\nIntegrations with other APIs were also implemented in this application, such as Cadastre, ARPAD, Notifica.gal, PortaSinaturas, and the Xunta's Electronic Office.\n\nUpon transitioning to Technical Lead, I assumed technical direction of two projects: TERREC and XALEA, an inherited project resulting from winning a public tender. The latter manages the distribution of LEADER grants within Rural Development Groups alongside Agader. In addition to all the points touched upon in TERREC, I emphasize the evolution in this project toward best practices, risk analysis, task management within the team, and multiple client meetings aimed at gathering data for application development."
+        },
+        {
+            "date": "July 2021 - August 2021",
+            "company": "Bahía Software",
+            "role": "Backend Developer - Intern",
+            "image": "/images/resume/resume-Bahia.jpg",
+            "url": "https://bahiasoftware.es/home",
+            "description": "The project I collaborated on is called INQUI, responsible for monitoring IT processes (such as HIS – Hospital Information System, LIS – Laboratory Information System, etc.) in Quirón Salud hospitals.\n\nThis allowed me to familiarize myself with the Mirth Connect environment and HL7 messaging in a healthcare setting. My tasks were focused on the backend, also managing a MySQL database. Agile and Scrum methodologies were used for software engineering."
+        }
+    ],
+    "education": [
+        {
+            "date": "September 2018 - September 2022",
+            "company": "Universidade de Santiago de Compostela",
+            "role": "Bachelor's Degree in Computer Engineering",
+            "image": "/images/resume/resume-USC.jpg",
+            "url": "https://www.usc.gal/es/estudios/grados/ingenieria-arquitectura/grado-ingenieria-informatica-2aedicion",
+            "description": "During my university studies, I trained in diverse fields, notably:\n\n• Programming (Java, C, Python)\n• Database management (SQL, MongoDB) and synchronization with applications and web pages (JDBC).\n• Services engineering (Spring Boot)\n• Web engineering (HTML5, CSS3, JavaScript, jQuery, Servlets, React.js)\n• Human-computer interaction (application usability and user-friendliness)\n• Mathematics: linear algebra, numerical calculation (SageMath), discrete mathematics, logic, and statistics (R)\n• Systems and network administration and management (C and Shell)\n• Computer engineering\n• Software engineering\n• Information systems\n• Intelligent systems\n• Rule-based systems (CLIPS, PROLOG)\n• Business organization and management\n• Computer graphics (C, C++)\n• Cloud computing (AWS Educate)"
+        },
+        {
+            "date": "September 2016 - May 2018",
+            "company": "I.E.S. Nosa Señora dos Ollos Grandes",
+            "role": "Technological Science High School",
+            "image": "/images/resume/resume-OllosGrandes.png",
+            "url": "http://www.edu.xunta.gal/centros/iesollosgrandes/",
+            "description": ""
+        }
+    ],
+    "certifications": [
+        {
+            "date": "May 2026 · No expiration date",
+            "company": "EOI Santiago de Compostela",
+            "role": "A1 German",
+            "image": "/images/resume/resume-EOISantiagoAleman.png",
+            "url": "https://www.edu.xunta.gal/centros/eoidesantiago/taxonomy/term/48",
+            "credential": "37989"
+        },
+        {
+            "date": "Apr. 2025 · No expiration date",
+            "company": "Scrum Manager",
+            "role": "Scrum Master Certified",
+            "image": "/images/resume/resume-ScrumManager.jpg",
+            "url": "https://scrummanager.com/website/c/verify-cert.php?code=67ff71804d53a6.40019203",
+            "credential": "52008"
+        },
+        {
+            "date": "Oct. 2019 · Expires: Oct. 2029",
+            "company": "Directorate-General for Traffic (DGT)",
+            "role": "Driving License (Class B)",
+            "image": "/images/resume/resume-DGT.jpg",
+            "url": "https://sede.dgt.gob.es/es/permisos-de-conducir/obtencion-renovacion-duplicados-permiso/permiso-conducir/examen-maniobras/permiso-b.shtml",
+            "credential": ""
+        },
+        {
+            "date": "Jul. 2017 · No expiration date",
+            "company": "Cambridge University Press & Assessment English",
+            "role": "B2 First Certificate in English (FCE)",
+            "image": "/images/resume/resume-Cambridge.jpg",
+            "url": "https://www.cambridgeenglish.org/es/exams-and-tests/first/",
+            "credential": "177ES3930190"
+        },
+        {
+            "date": "Dec. 2014 · No expiration date",
+            "company": "Cambridge University Press & Assessment English",
+            "role": "B1 Preliminary (PET)",
+            "image": "/images/resume/resume-Cambridge.jpg",
+            "url": "https://www.cambridgeenglish.org/es/exams-and-tests/preliminary/",
+            "credential": ""
+        },
+        {
+            "date": "Jun. 2018 · No expiration date",
+            "company": "Xunta de Galicia",
+            "role": "CELGA 4",
+            "image": "/images/resume/resume-Xunta.png",
+            "url": "https://www.lingua.gal/o-galego/aprendelo/celga-4/validacion",
+            "credential": ""
+        }
+    ],
+    "courses": [
+        {
+            "date": "2023 (32 hours)",
+            "company": "Udemy",
+            "role": "Vue - The Complete Guide (incl. Router & Composition API)",
+            "image": "/images/resume/resume-Udemy.png",
+            "url": "https://www.udemy.com/certificate/UC-4a97ea3d-fba4-4621-b4ae-e33b3cfff9c2/",
+            "credential": "UC-4a97ea3d-fba4-4621-b4ae-e33b3cfff9c2"
+        },
+        {
+            "date": "2023 (13.5 hours)",
+            "company": "Udemy",
+            "role": "MongoDB and NoSQL Databases Complete Course",
+            "image": "/images/resume/resume-Udemy.png",
+            "url": "https://www.udemy.com/certificate/UC-d9cc0c28-13a1-4e1d-aa80-69b180dec946/",
+            "credential": "UC-d9cc0c28-13a1-4e1d-aa80-69b180dec946"
+        },
+        {
+            "date": "2018 (31 hours), Grade: 9.7/10",
+            "company": "Universidade de Santiago de Compostela",
+            "role": "Information Competencies Course (Basic)",
+            "image": "/images/resume/resume-USC.jpg",
+            "url": "https://rebusca.usc.gal/guia-curso-competencias-basico/informacion",
+            "credential": "BUSC.1819.41"
+        }
+    ]
+}
